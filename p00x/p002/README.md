@@ -13,5 +13,3 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 
  1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
 数列の項の値が400万を超えない範囲で、偶数値の項の総和を求めよ。
-
-Note:この問題は最近更新されました。お使いのパラメータが正しいかどうか確認してください。
