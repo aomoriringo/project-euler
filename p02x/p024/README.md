@@ -1,4 +1,4 @@
-Problem 020
+Problem 024
 ===========
 
 A permutation is an ordered arrangement of objects.
