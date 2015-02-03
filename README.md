@@ -12,4 +12,5 @@ Project-Euler
 | Ruby          | 2.2.0   | rb        |
 | Erlang        | 17.3    | erl       |
 | Go            | 1.4     | go        |
+| Julia         | 0.3.0   | jl        |
 | Vim script    | 7.4     | vim       |
