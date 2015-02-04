@@ -3,8 +3,8 @@ let s:Math = s:V.import('Math')
 
 function! P002()
   let l:ans = 0
-  for i in range(1,50)
-    let l:tmp = s:Math.fib(i)
+  for l:i in range(1,50)
+    let l:tmp = s:Math.fib(l:i)
     if (l:tmp > 4000000)
       break
     elseif (l:tmp%2 == 0)
