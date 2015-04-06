@@ -1,3 +1,4 @@
+" Require: https://github.com/vim-jp/vital.vim
 let s:V = vital#of('vital')
 let s:Math = s:V.import('Math')
 
