@@ -8,4 +8,4 @@ main = do
 
 maxNum :: [Int] -> Int
 maxNum [] = 0
-maxNum all@(x:xs) = max (product (take 5 all)) (maxNum xs)
+maxNum all@(x:xs) = max (product (take 13 all)) (maxNum xs)
