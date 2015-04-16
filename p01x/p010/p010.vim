@@ -1,6 +1,5 @@
-" Use: https://github.com/aomoriringo/bigint.vim
-" WARNING: bigint.vim is alpha version
-source ~/github/bigint.vim/bigint.vim
+" Require: https://github.com/vim-jp/vital.vim
+let s:big = vital#of('vital').import('Data.BigNum')
 
 function! P010()
   let l:max = 2000000
@@ -23,12 +22,12 @@ function! P010()
     endwhile
   endfor
 
-  let l:ans = FromString("0")
+  let l:ans = s:big.from_num(0)
   for i in range(l:max)
     if p[i]
-      let l:ans = BigAdd(l:ans, i)
+      let l:ans = s:big.add(l:ans, i)
     endif
   endfor
-  return ToString(l:ans)
+  return s:big.to_string(l:ans)
 
 endfunction
