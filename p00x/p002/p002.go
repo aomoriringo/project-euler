@@ -4,21 +4,20 @@ import (
   "fmt"
 )
 
-func fib(n int) int {
-  if n>1 {
-    return fib(n-1) + fib(n-2)
-  } else {
-    return 1
+func fib() func() int {
+  a, b := 0, 1
+  return func() int {
+    a, b = b, a+b
+    return a
   }
 }
 
 func p002() (ans int) {
   ans = 0
-  for i := 1; i<1000 ; i++ {
-    var tmp = fib(i)
-    if tmp > 4000000 {
-      break
-    }
+  f := fib()
+  tmp := 0
+  for tmp <= 4000000 {
+    tmp = f()
     if tmp%2 == 0 {
       ans += tmp
     }
