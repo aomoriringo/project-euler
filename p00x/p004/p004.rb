@@ -13,4 +13,3 @@ $max=0
   }
 }
 p $max
-# p is_palindrome(9009)
