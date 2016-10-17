@@ -9,7 +9,7 @@ Project-Euler
 | Python        | 3.4.1   | py        |
 | Haskell       | 7.8.4   | hs        |
 | Mathematica   | 8.0     | m         |
-| Ruby          | 2.2.0   | rb        |
+| Ruby          | 2.3.1   | rb        |
 | Elixir        | 1.0.2   | exs       |
 | Erlang        | 17.3    | erl       |
 | Go            | 1.5.1   | go        |
