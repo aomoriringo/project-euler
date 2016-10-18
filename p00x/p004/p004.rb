@@ -1,15 +1,13 @@
-def is_palindrome(x)
+def palindrome?(x)
   s = x.to_s
-  return s == s.reverse
+  s == s.reverse
 end
 
 $max=0
 (100..1000).each{|x|
   (x..1000).each{|y|
     n = x*y
-    if is_palindrome(n) and n > $max
-      $max = n
-    end
+    $max = n if palindrome?(n) && n > $max
   }
 }
 p $max
