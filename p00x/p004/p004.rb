@@ -10,4 +10,4 @@ $max=0
     $max = n if palindrome?(n) && n > $max
   }
 }
-p $max
+puts $max
