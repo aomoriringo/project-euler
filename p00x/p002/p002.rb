@@ -7,8 +7,8 @@ def fib(n)
   return $fibs[n]
 end
 
-p (1..100).map{|x| fib(x)}
-          .take_while{|x| x<4000000}
-          .select{|x| x%2 == 0}
-          .inject(:+)
+puts (1..100).map{|x| fib(x)}
+             .take_while{|x| x<4000000}
+             .select{|x| x%2 == 0}
+             .inject(:+)
 
