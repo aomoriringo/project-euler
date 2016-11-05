@@ -1,7 +1,7 @@
 Problem 009
 ===========
 
-A Pythagorean triplet is a set of three natural numbers, a < b < c, for which, 
+A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,
 
 
 
